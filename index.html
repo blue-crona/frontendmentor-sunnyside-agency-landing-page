@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="stylesheet" href="./styles.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,12 +16,24 @@
   </style>
 </head>
 <body>
-  About
-  Services
-  Projects
-  Contact
+  <header class="header">
+    <nav class="menu">
+      <img src="./images/logo.svg" alt="">
+      <ul class="menu__list">
+        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Projects</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+      </ul>
+    </nav> 
+    <div class="banner">
+      <h1 class="banner__header">We are creatives</h1>
+      <img class="banner__down-arrow" src="./images/icon-arrow-down.svg" alt="">
+    </div>
+  </header>
 
-  We are creatives
+
+
 
   Transform your brand
 
@@ -41,24 +54,57 @@
   Photography
   Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
 
-  Client testimonials
+  <div class="testimonial">
+    <h2 class="testimonial__title">Client testimonials</h2>
+    <div class="testimonial__list">
+      <div class="testimonial__item">
+        <img src="./images/image-emily.jpg" alt=""/>
+        <p class="testimonial__quote">
+          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+        </p>
+        <p class="testimonial__author">Emily R.</p>
+        <p class="testimonial__position">Marketing Director</p>
+      </div>
 
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
+      <div class="testimonial__item">
+        <img src="./images/image-thomas.jpg" alt=""/>
+        <p class="testimonial__quote">
+          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+        </p>
+        <p class="testimonial__author">Thomas S.</p>
+        <p class="testimonial__position">Chief Operating Officer</p>
+      </div>
+    
+      <div class="testimonial__item">
+        <img src="./images/image-jennie.jpg" alt=""/>
+        <p class="testimonial__quote">
+          Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+        </p>
+        <p class="testimonial__author">Jennie F.</p>
+        <p class="testimonial__position">Business Owner</p>
+      </div>
+    </div>
+  </div>
 
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
+  <footer class="footer">
+    <nav class="menu footer__menu">
+      <ul class="menu__list">
+        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Projects</a></li>
+      </ul>
+    </nav>  
+    
+    <div class="social-media footer__social-media">
+      <div class="social-media__list">
+        <a href="#"><img class="social-media__facebook" src="./images/icon-facebook.svg" alt=""></a>
+        <a href="#"><img class="social-media__instagram" src="./images/icon-instagram.svg" alt=""></a>
+        <a href="#"><img class="social-media__twitter" src="./images/icon-twitter.svg" alt=""></a>
+        <a href="#"><img class="social-media__pinterest" src="./images/icon-pinterest.svg" alt=""></a>
+      </div>
+      
+    </div>
+  </footer>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

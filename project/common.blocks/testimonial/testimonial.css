@@ -1,0 +1,15 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial__list{
+    display: flex;
+}
+
+.testimonial__item {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
