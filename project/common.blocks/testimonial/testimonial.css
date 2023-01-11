@@ -6,6 +6,8 @@
 
 .testimonial__list{
     display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
 }
 
 .testimonial__item {
