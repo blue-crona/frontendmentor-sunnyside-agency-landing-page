@@ -5,13 +5,13 @@
 @import "./project/common.blocks/social-media/social-media.css";
 @import "./project/common.blocks/footer/footer.css";
 @import "./project/common.blocks/menu/menu.css";
+@import "./project/common.blocks/image-gallery/image-gallery.css";
 
-* {
+*, *::after, *::before {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
-
 
 :root {
     /* Colors */
@@ -37,18 +37,11 @@
 }
 
 
-
-
 .header {
     height: 100vh;
-    background: url("./images/desktop/image-header.jpg") no-repeat center;
-    background-size: cover;
-}
-
-.header__down-arrow {
-    /* height: 100vh; */
-    
-    /* background: url("./images/icon-arrow-down.svg") no-repeat center; */
+    background-color: var(--dark-blue);
+    background: url("./images/desktop/image-header.jpg") no-repeat center var(--dark-blue);
+    background-size: contain;
 }
 
 .banner {
@@ -67,10 +60,25 @@
 }
 
 .banner__down-arrow {
-    padding-top: 10rem;
+    padding-top: 9rem;
 }
 
+.grid-container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr); 
+   /* gap: 0px; */
+    align-items: center;
+}
 
+.grid-item {
+    border: 1px solid red;
+    text-align: center;
+    object-fit: cover;
+}
+
+.grid-item img {
+    background-color: rebeccapurple;
+}
 
 /* @media (min-width: 1440px) {
     body {
