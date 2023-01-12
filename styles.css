@@ -65,9 +65,18 @@
 
 .grid-container {
    display: grid;
-   grid-template-columns: repeat(2, 1fr); 
-   /* gap: 0px; */
-    align-items: center;
+   /* grid-auto-rows: 1fr;
+   grid-template-columns: repeat(2, minmax(0, 1fr)); 
+   gap: 0px;
+    align-items: center; */
+
+    display: grid;
+    /* height: 100vh; */
+    /* width: 1440px; */
+
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-auto-columns: 50%;
+    grid-auto-flow: column; */
 }
 
 .grid-item {
@@ -78,6 +87,10 @@
 
 .grid-item img {
     background-color: rebeccapurple;
+}
+
+.test {
+    background: url("./images/desktop/image-graphic-design.jpg") no-repeat center;
 }
 
 /* @media (min-width: 1440px) {
