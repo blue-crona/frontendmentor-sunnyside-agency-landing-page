@@ -6,6 +6,7 @@
 @import "./project/common.blocks/footer/footer.css";
 @import "./project/common.blocks/menu/menu.css";
 @import "./project/common.blocks/image-gallery/image-gallery.css";
+@import "./project/common.blocks/tiles/tiles.css";
 
 *, *::after, *::before {
     margin: 0;
@@ -61,27 +62,6 @@
 
 .banner__down-arrow {
     padding-top: 9rem;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
-.container__item {
-    display: flex;
-}
-
-.container__item--reverse {
-    flex-direction: row-reverse;
-}
-
-.description {
-    width: 50%
-}
-
-.descriptions-image {
-    width: 50%;
 }
 
 /* @media (min-width: 1440px) {

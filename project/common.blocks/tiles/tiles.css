@@ -1,0 +1,40 @@
+.tiles {
+    display: flex;
+    flex-direction: column;
+}
+
+.tiles__row {
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.tiles__row--reverse {
+    flex-direction: row-reverse;
+}
+
+.tiles__description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 0 10em;
+}
+
+.tiles__image,
+.tiles__service {
+    width: 50%;
+}
+
+.tiles__full-image {
+    width: 100%;
+    height: 100%;
+}
+
+.tiles__full-image-text {
+    position: absolute;
+    top: 70%;
+    width: 50%;
+    padding: 0 10em;
+}
