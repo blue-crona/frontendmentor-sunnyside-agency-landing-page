@@ -31,28 +31,58 @@
     --dark-grayish-blue: hsl(232, 10%, 55%);
     --grayish-blue: hsl(210, 4%, 67%);
     --white: hsl(0, 0%, 100%);
+    --cyan: #90d4c6;
 
     /* Fonts */
     font-family: 'Fraunces', serif;
     font-size: 18px;
 }
 
+body {
+    margin: 0 auto;
+    width: 1440px;
+}
 
 .header {
-    height: 100vh;
-    background-color: var(--dark-blue);
-    background: url("./images/desktop/image-header.jpg") no-repeat center var(--dark-blue);
-    background-size: contain;
+    position: relative;
+    height: 100%;
+    display: flex;
+    /* background-color: var(--dark-blue); */
+    /* background: url("./images/desktop/image-header.jpg") no-repeat bottom var(--dark-blue); */
+    /* background-size: contain; */
+}
+
+.header__image {
+    width: 100%; 
+    /* height: 100%;  */
+    /* object-fit: contain;  */
+    /* position: relative;  */
+    /* z-index: 0; */
 }
 
 .banner {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    /* padding-top: 8em; */
+    
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    /* height: 100%; */
+
+
+
+    /* TODO: Read documentation on following styles */
+    top: 41.5%;
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
 
 .banner__header {
-    padding-top: 1.5em;
+    text-align: center;
+    /* padding-top: 1.5em; */
     font-size: 5em;
     text-transform: uppercase;
     font-weight: 900;
@@ -61,7 +91,16 @@
 }
 
 .banner__down-arrow {
-    padding-top: 9rem;
+    padding-top: 6rem;
+}
+
+footer {
+    background-color: var(--cyan);
+}
+
+.footer__logo {
+    /* TODO: Read documentation on filter */
+    filter: invert(27%) sepia(7%) saturate(2968%) hue-rotate(116deg) brightness(50%) contrast(90%);
 }
 
 /* @media (min-width: 1440px) {

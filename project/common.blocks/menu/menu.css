@@ -2,6 +2,11 @@
     display: flex;
     justify-content: space-between;
      font-family: 'barlow', serif;
+     width: 100%;
+
+     position: absolute;
+      z-index: 100;
+       /* top: 0; */
 }
 
 .menu__list {
