@@ -1,7 +1,6 @@
-.menu {
+.main-nav {
     display: flex;
-    justify-content: space-around;
-    font-family: 'barlow', serif;
+    justify-content: space-between;
     width: 100%;
     padding: 2em;
 
@@ -9,15 +8,15 @@
     z-index: 100;
 }
 
-.menu__list {
+.main-nav__list {
     display: flex;
 }
 
-.menu__item {
+.main-nav__item {
     list-style: none;
 }
 
-.menu__link {
+.main-nav__link {
     text-decoration: none;
     color: white;
     padding: .5em 1em;
@@ -26,11 +25,11 @@
     line-height: unset; */
 }
 
-.menu__link:hover {
+.main-nav__link:hover {
     cursor: pointer;
 }
 
-.menu__link:focus   {
+.main-nav__link:focus   {
     background-color: var(--white);
     color: var(--dark-blue);
     outline: none;

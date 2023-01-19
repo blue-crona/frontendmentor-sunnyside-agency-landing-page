@@ -4,9 +4,11 @@
 @import "./project/common.blocks/testimonial/testimonial.css";
 @import "./project/common.blocks/social-media/social-media.css";
 @import "./project/common.blocks/footer/footer.css";
-@import "./project/common.blocks/menu/menu.css";
+@import "./project/common.blocks/footer-nav/footer-nav.css";
+@import "./project/common.blocks/main-nav/main-nav.css";
 @import "./project/common.blocks/image-gallery/image-gallery.css";
 @import "./project/common.blocks/tiles/tiles.css";
+@import "./project/common.blocks/header/header.css";
 
 *, *::after, *::before {
     margin: 0;
@@ -16,8 +18,7 @@
 
 :root {
     /* Colors */
-
-    /* Primary */
+        /* Primary */
     --soft-red: hsl(7, 99%, 70%);
     --yellow: hsl(51, 100%, 49%);
     --dark-desaturated-cyan: hsl(167, 40%, 24%);
@@ -25,8 +26,7 @@
     --dark-moderate-cyan: hsl(168, 34%, 41%);
     --light-moderate-cyan: hsl(168, 44%, 71%);
 
-    /* Neutral */
-
+        /* Neutral */
     --very-dark-desaturated-blue: hsl(212, 27%, 19%);
     --very-dark-grayish-blue: hsl(213, 9%, 39%);
     --dark-grayish-blue: hsl(232, 10%, 55%);
@@ -35,81 +35,15 @@
     --cyan: #90d4c6;
 
     /* Fonts */
-    /* font-family: 'Fraunces', serif; */
-    /* font-family: 'Barlow', serif;
-    font-size: 18px; */
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
 }
 
 body {
-    font-family: 'Barlow', sans-serif;
-    font-size: 18px;
     margin: 0 auto;
-    /* width: 1440px; */
+    width: 1440px;
 }
 
-.header {
-    position: relative;
-    height: 100%;
-    display: flex;
-    /* background-color: var(--dark-blue); */
-    /* background: url("./images/desktop/image-header.jpg") no-repeat bottom var(--dark-blue); */
-    /* background-size: contain; */
-}
-
-.header__image {
-    width: 100%; 
-}
-
-.banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    height: 100%;
-    width: 100%;
-
-    position: absolute;
-    z-index: 99;
-    top: -10%;
-
-    /* TODO: Read documentation on following styles */
-    /* this is pushing the banner (text/img) down from the top 41.5%*/
-    /* top: 41.5%; */
-    /* this is pushing the banner (text/img) from the left 50% */ 
-    /* left: 50%;  */
-    /* this is taking the centered banner and moving it -50% from the left (moves left) */
-    /* this is taking the centered banner and moving it -50% from the top (moves up) */
-    /* transform: translate(-50%, -50%); */
-    
-    /* 
-        Summary: Makes no sense to move the banner position off center to just 
-        to bring it back to center with the hight slightly different.
-    */
-}
-
-.banner__header {
-    text-align: center;
-    /* padding-top: 1.5em; */
-    font-size: 3em;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: .2em;
-    color: var(--white);
-}
-
-.banner__down-arrow {
-    padding-top: 6rem;
-}
-
-footer {
-    background-color: var(--light-moderate-cyan);
-}
-
-.footer__logo {
-    /* TODO: Read documentation on filter */
-    filter: invert(27%) sepia(7%) saturate(2968%) hue-rotate(116deg) brightness(50%) contrast(90%);
-}
 
 /* @media (min-width: 1440px) {
     body {

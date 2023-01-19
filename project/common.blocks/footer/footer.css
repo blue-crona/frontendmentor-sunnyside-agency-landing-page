@@ -1,8 +1,10 @@
-.footer__list {
-    display: flex;
-    justify-content: center;
+.footer__container {
+    background-color: var(--light-moderate-cyan);
+    padding: 4em;
+    text-align: center;
 }
 
-.footer__item {
-    padding-right: 1em;
+.footer__logo {
+    /* TODO: Read documentation on filter */
+    filter: invert(27%) sepia(7%) saturate(2968%) hue-rotate(116deg) brightness(50%) contrast(90%);
 }

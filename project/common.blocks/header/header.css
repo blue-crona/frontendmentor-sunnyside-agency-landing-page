@@ -1,0 +1,55 @@
+
+.header {
+    position: relative;
+    height: 100%;
+    display: flex;
+    /* background-color: var(--dark-blue); */
+    /* background: url("./images/desktop/image-header.jpg") no-repeat bottom var(--dark-blue); */
+    /* background-size: contain; */
+}
+
+.header__image {
+    width: 100%; 
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    z-index: 99;
+    top: -10%;
+
+    /* TODO: Read documentation on following styles */
+    /* this is pushing the banner (text/img) down from the top 41.5%*/
+    /* top: 41.5%; */
+    /* this is pushing the banner (text/img) from the left 50% */ 
+    /* left: 50%;  */
+    /* this is taking the centered banner and moving it -50% from the left (moves left) */
+    /* this is taking the centered banner and moving it -50% from the top (moves up) */
+    /* transform: translate(-50%, -50%); */
+    
+    /* 
+        Summary: Makes no sense to move the banner position off center to just 
+        to bring it back to center with the hight slightly different.
+    */
+}
+
+.header__title {
+    text-align: center;
+    /* padding-top: 1.5em; */
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .2em;
+    color: var(--white);
+}
+
+.header__down-arrow {
+    padding-top: 6rem;
+}

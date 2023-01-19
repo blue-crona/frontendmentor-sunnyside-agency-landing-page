@@ -1,0 +1,34 @@
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2em;
+}
+
+.footer-nav__item {
+    list-style: none; 
+}
+
+.footer-nav__list {
+    display: flex;
+}
+
+.footer-nav__link {
+    text-decoration: none;
+    color: var(--dark-moderate-cyan);
+    padding: .5em 1em;
+}
+
+.footer-nav__link:hover,
+.footer-nav__link:focus   {
+    color: var(--white);
+}
+
+.footer-nav__link:hover {
+    cursor: pointer;
+}
+
+.footer-nav__link:focus   {
+    color: var(--white);
+    outline: none;
+}
