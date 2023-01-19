@@ -6,5 +6,6 @@
 
 .footer__logo {
     /* TODO: Read documentation on filter */
+    /* width: 10%; */
     filter: invert(27%) sepia(7%) saturate(2968%) hue-rotate(116deg) brightness(50%) contrast(90%);
 }
