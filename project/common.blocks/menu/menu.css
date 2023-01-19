@@ -1,12 +1,12 @@
 .menu {
     display: flex;
-    justify-content: space-between;
-     font-family: 'barlow', serif;
-     width: 100%;
+    justify-content: space-around;
+    font-family: 'barlow', serif;
+    width: 100%;
+    padding: 2em;
 
-     position: absolute;
-      z-index: 100;
-       /* top: 0; */
+    position: absolute;
+    z-index: 100;
 }
 
 .menu__list {
@@ -15,14 +15,27 @@
 
 .menu__item {
     list-style: none;
-    padding-left: 1em;
 }
 
 .menu__link {
     text-decoration: none;
     color: white;
+    padding: .5em 1em;
+
     /* font-size: unset;
     line-height: unset; */
+}
+
+.menu__link:hover {
+    cursor: pointer;
+}
+
+.menu__link:focus   {
+    background-color: var(--white);
+    color: var(--dark-blue);
+    outline: none;
+    border-radius: 99999999999999999999px;
+    /* padding: .5em 1em; */
 }
 
 /* .menu__link:link, 

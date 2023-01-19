@@ -23,6 +23,7 @@
     --dark-desaturated-cyan: hsl(167, 40%, 24%);
     --dark-blue: hsl(198, 62%, 26%);
     --dark-moderate-cyan: hsl(168, 34%, 41%);
+    --light-moderate-cyan: hsl(168, 44%, 71%);
 
     /* Neutral */
 
@@ -34,13 +35,16 @@
     --cyan: #90d4c6;
 
     /* Fonts */
-    font-family: 'Fraunces', serif;
-    font-size: 18px;
+    /* font-family: 'Fraunces', serif; */
+    /* font-family: 'Barlow', serif;
+    font-size: 18px; */
 }
 
 body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
     margin: 0 auto;
-    width: 1440px;
+    /* width: 1440px; */
 }
 
 .header {
@@ -54,10 +58,6 @@ body {
 
 .header__image {
     width: 100%; 
-    /* height: 100%;  */
-    /* object-fit: contain;  */
-    /* position: relative;  */
-    /* z-index: 0; */
 }
 
 .banner {
@@ -65,13 +65,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* padding-top: 8em; */
     
     height: 100%;
     width: 100%;
 
     position: absolute;
-    z-index: 100;
+    z-index: 99;
     top: -10%;
 
     /* TODO: Read documentation on following styles */
@@ -79,7 +78,7 @@ body {
     /* top: 41.5%; */
     /* this is pushing the banner (text/img) from the left 50% */ 
     /* left: 50%;  */
-    /* this is taking the centered banner and moving it -50% from the left (moves right) */
+    /* this is taking the centered banner and moving it -50% from the left (moves left) */
     /* this is taking the centered banner and moving it -50% from the top (moves up) */
     /* transform: translate(-50%, -50%); */
     
@@ -104,7 +103,7 @@ body {
 }
 
 footer {
-    background-color: var(--cyan);
+    background-color: var(--light-moderate-cyan);
 }
 
 .footer__logo {

@@ -27,6 +27,28 @@
     width: 50%;
 }
 
+.tiles__header {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--very-dark-desaturated-blue)
+}
+
+.tiles__text {
+    font-size: 1rem;
+    color: var(--dark-grayish-blue)
+}
+
+.tiles__header--cyan,
+.tiles__text--cyan {
+    color: var(--dark-desaturated-cyan);
+}
+
+.tiles__header--blue,
+.tiles__text--blue {
+    color: var(--dark-blue);
+}
+
 .tiles__full-image {
     width: 100%;
     height: 100%;
