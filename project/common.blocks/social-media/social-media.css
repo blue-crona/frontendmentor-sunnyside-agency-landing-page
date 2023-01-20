@@ -9,31 +9,17 @@
 
 .social-media__list {
     display: flex;
-    justify-content: space-between;
-    width: 8vw;
-}
-
-.social-media__item {
-    /* filter: invert(50%) sepia(50%) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%); */
+    justify-content: center;
+    gap: .5em;
+    max-width: 8vw;
 }
 
 .social-media__item:hover,
-.social-media__item:focus {
-    /* 
-        color: var(--white); 
-
-        color will not work because the items are images.
-        Will need to use filter. E.g.
-        filter: invert(27%) sepia(7%) saturate(2968%) hue-rotate(116deg) brightness(50%) contrast(90%);
-    */
-    filter: invert(50%) sepia(50%) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%);
+.social-media__list a:focus {
+    filter: brightness(0) invert(1);
 }
 
-.social-media__item:hover {
-    cursor: crosshair;
-}
-
-.social-media__item:focus   {
-    color: var(--white);
+.social-media__list a {
     outline: none;
+    cursor: pointer;
 }
