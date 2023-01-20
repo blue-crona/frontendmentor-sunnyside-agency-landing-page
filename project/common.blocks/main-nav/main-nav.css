@@ -29,7 +29,7 @@
     cursor: pointer;
 }
 
-.main-nav__link:focus   {
+.main-nav__link:focus {
     background-color: var(--white);
     color: var(--dark-blue);
     outline: none;

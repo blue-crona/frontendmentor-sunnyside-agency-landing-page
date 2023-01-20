@@ -18,9 +18,17 @@
 
 :root {
     /* Colors */
+        /* Variables */
+    --soft-red-hue: 7;
+    --soft-red-saturation: 99%;
+    --soft-red-lightness: 70%;
+    --yellow-hue: 51;
+    --yellow-saturation: 100%;
+    --yellow-lightness: 49%;
+
         /* Primary */
-    --soft-red: hsl(7, 99%, 70%);
-    --yellow: hsl(51, 100%, 49%);
+    --soft-red: hsl(var(--soft-red-hue), var(--soft-red-saturation), var(--soft-red-lightness));
+    --yellow: hsl(var(--yellow-hue), var(--yellow-saturation), var(--yellow-lightness));
     --dark-desaturated-cyan: hsl(167, 40%, 24%);
     --dark-blue: hsl(198, 62%, 26%);
     --dark-moderate-cyan: hsl(168, 34%, 41%);

@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    padding: 0 10em;
+    padding: 0 7.6em;
 }
 
 .tiles__image,
@@ -31,32 +31,80 @@
     font-family: 'Fraunces', serif;
     font-size: 2rem;
     font-weight: 900;
-    color: var(--very-dark-desaturated-blue)
+    color: var(--very-dark-desaturated-blue);
 }
 
 .tiles__text {
     font-size: 1rem;
-    color: var(--dark-grayish-blue)
+    color: var(--dark-grayish-blue);
+    margin-top: 1.5em;
 }
 
-.tiles__header--cyan,
-.tiles__text--cyan {
+.tiles__link{
+    margin-top: 2em;
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+    color: var(--very-dark-desaturated-blue);
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 32.5%;
+    text-align: center;
+}
+
+.tiles__link--yellow::after,
+.tiles__link--soft-red::after {
+    content: "";
+    float: left;
+    width: 100%;
+    height: 10px;
+    margin-top: -10px;
+    border-radius: 1000000000px;
+}
+
+.tiles__link--soft-red:hover::after {
+    background-color: hsl(var(--soft-red-hue), var(--soft-red-saturation), var(--soft-red-lightness));
+}
+
+.tiles__link--soft-red::after {
+    background-color: hsl(var(--soft-red-hue), var(--soft-red-saturation), calc(var(--soft-red-lightness) + 20%));
+}
+
+.tiles__link--yellow:hover::after {
+    background-color: hsl(var(--yellow-hue), var(--yellow-saturation), var(--yellow-lightness));
+}
+
+.tiles__link--yellow::after {
+    background-color: hsl(var(--yellow-hue), var(--yellow-saturation), calc(var(--yellow-lightness) + 40%));
+}
+
+.tiles__service-header {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.tiles__service-text {
+    margin-top: 1.5em;
+}
+
+.tiles__service-header--cyan,
+.tiles__service-text--cyan {
     color: var(--dark-desaturated-cyan);
 }
 
-.tiles__header--blue,
-.tiles__text--blue {
+.tiles__service-header--blue,
+.tiles__service-text--blue {
     color: var(--dark-blue);
 }
 
-.tiles__full-image {
+.tiles__service-image {
     width: 100%;
     height: 100%;
 }
 
-.tiles__full-image-text {
+.tiles__service-description {
     position: absolute;
-    top: 70%;
+    top: 65%;
     width: 50%;
-    padding: 0 10em;
+    padding: 0 9em;
 }
