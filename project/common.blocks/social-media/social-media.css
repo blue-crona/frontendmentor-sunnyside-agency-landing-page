@@ -14,8 +14,7 @@
     max-width: 8vw;
 }
 
-.social-media__item:hover,
-.social-media__list a:focus {
+.social-media__item:hover {
     filter: brightness(0) invert(1);
 }
 
