@@ -6,18 +6,12 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
   <link rel="stylesheet" href="./styles.css">
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <header class="header">
     <img class="header__image" src="./images/desktop/image-header.jpg" alt=""/>
     <nav class="main-nav">
-      <a href="#"><img src="./images/logo.svg" alt=""/></a>
+      <a href="#"><img src="./images/logo.svg" alt="homepage"/></a>
       <ul class="main-nav__list">
         <li class="main-nav__item"><a class="main-nav__link" href="#">About</a></li>
         <li class="main-nav__item"><a class="main-nav__link" href="#">Services</a></li>
@@ -30,95 +24,93 @@
       <img class="header__down-arrow" src="./images/icon-arrow-down.svg" alt="">
     </div>
   </header>
-
-  <div class="tiles">
-    <div class="tiles__row tiles__row--reverse">
-      <img class="tiles__image" src="./images/desktop/image-transform.jpg" alt=""/>
-      <div class="tiles__description">
-        <h2 class="tiles__header">Transform your brand</h2>
-        <p class="tiles__text">
-          We are a full-service creative agency specializing in helping brands grow fast. 
-          Engage your clients through compelling visuals that do most of the marketing for you.
-        </p>
-        <a class="tiles__link tiles__link--yellow" href="#">Learn more</a>
+  <main>
+    <div class="tiles">
+      <div class="tiles__row tiles__row--reverse">
+        <img class="tiles__image" src="./images/desktop/image-transform.jpg" alt=""/>
+        <div class="tiles__description">
+          <h2 class="tiles__header">Transform your brand</h2>
+          <p class="tiles__text">
+            We are a full-service creative agency specializing in helping brands grow fast. 
+            Engage your clients through compelling visuals that do most of the marketing for you.
+          </p>
+          <a class="tiles__link tiles__link--yellow" href="#">Learn more</a>
+        </div>
       </div>
-    </div>
 
-    <div class="tiles__row">
-      <img class="tiles__image" src="./images/desktop/image-stand-out.jpg" alt=""/>
-      <div class="tiles__description">
-        <h2 class="tiles__header">Stand out to the right audience</h2>
-        <p class="tiles__text">
-          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-        </p>   
-        <a class="tiles__link tiles__link--soft-red" href="#">Learn more</a>  
-      </div> 
-    </div>
+      <div class="tiles__row">
+        <img class="tiles__image" src="./images/desktop/image-stand-out.jpg" alt=""/>
+        <div class="tiles__description">
+          <h2 class="tiles__header">Stand out to the right audience</h2>
+          <p class="tiles__text">
+            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+          </p>   
+          <a class="tiles__link tiles__link--soft-red" href="#">Learn more</a>  
+        </div> 
+      </div>
 
-    <div class="tiles__row">
-      <div  class="tiles__service">
-          <img class="tiles__service-image" src="./images/desktop/image-graphic-design.jpg" alt=""/>
+      <div class="tiles__row">
+        <div  class="tiles__service">
+            <img class="tiles__service-image" src="./images/desktop/image-graphic-design.jpg" alt=""/>
+            <div class="tiles__service-description">
+              <h2 class="tiles__service-header tiles__service-header--cyan">Graphic design</h2>
+              <p class="tiles__service-text tiles__service-text--cyan">
+                Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.    
+              </p>
+            </div>
+        </div> 
+        <div  class="tiles__service">
+          <img class="tiles__service-image" src="./images/desktop/image-photography.jpg" alt=""/>
           <div class="tiles__service-description">
-            <h2 class="tiles__service-header tiles__service-header--cyan">Graphic design</h2>
-            <p class="tiles__service-text tiles__service-text--cyan">
-              Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.    
+            <h2 class="tiles__service-header tiles__service-header--blue">Photography</h2>
+            <p class="tiles__service-text tiles__service-text--blue">
+              Increase your credibility by getting the most stunning, high-quality photos that improve your business image.    
             </p>
           </div>
-      </div> 
-      <div  class="tiles__service">
-        <img class="tiles__service-image" src="./images/desktop/image-photography.jpg" alt=""/>
-        <div class="tiles__service-description">
-          <h2 class="tiles__service-header tiles__service-header--blue">Photography</h2>
-          <p class="tiles__service-text tiles__service-text--blue">
-            Increase your credibility by getting the most stunning, high-quality photos that improve your business image.    
-          </p>
         </div>
       </div>
     </div>
-  </div>
+    <div class="testimonial">
+      <h2 class="testimonial__title">Client testimonials</h2>
+      <div class="testimonial__list">
+        <div class="testimonial__item">
+          <img class="testimonial__image" src="./images/image-emily.jpg" alt=""/>
+          <p class="testimonial__quote">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+          <h3 class="testimonial__author">Emily R.</h3>
+          <p class="testimonial__position">Marketing Director</p>
+        </div>
 
-  <div class="testimonial">
-    <h2 class="testimonial__title">Client testimonials</h2>
-    <div class="testimonial__list">
-      <div class="testimonial__item">
-        <img class="testimonial__image" src="./images/image-emily.jpg" alt=""/>
-        <p class="testimonial__quote">
-          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-        </p>
-        <h3 class="testimonial__author">Emily R.</h3>
-        <p class="testimonial__position">Marketing Director</p>
-      </div>
-
-      <div class="testimonial__item">
-        <img class="testimonial__image" src="./images/image-thomas.jpg" alt=""/>
-        <p class="testimonial__quote">
-          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-        </p>
-        <h3 class="testimonial__author">Thomas S.</h3>
-        <p class="testimonial__position">Chief Operating Officer</p>
-      </div>
-    
-      <div class="testimonial__item">
-        <img class="testimonial__image" src="./images/image-jennie.jpg" alt=""/>
-        <p class="testimonial__quote">
-          Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-        </p>
-        <h3 class="testimonial__author">Jennie F.</h3>
-        <p class="testimonial__position">Business Owner</p>
+        <div class="testimonial__item">
+          <img class="testimonial__image" src="./images/image-thomas.jpg" alt=""/>
+          <p class="testimonial__quote">
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <h3 class="testimonial__author">Thomas S.</h3>
+          <p class="testimonial__position">Chief Operating Officer</p>
+        </div>
+      
+        <div class="testimonial__item">
+          <img class="testimonial__image" src="./images/image-jennie.jpg" alt=""/>
+          <p class="testimonial__quote">
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+          <h3 class="testimonial__author">Jennie F.</h3>
+          <p class="testimonial__position">Business Owner</p>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="image-gallery">
-    <img class="image-gallery__image" src="./images/desktop/image-gallery-milkbottles.jpg" alt=""/>
-    <img class="image-gallery__image" src="./images/desktop/image-gallery-orange.jpg" alt=""/>
-    <img class="image-gallery__image" src="./images/desktop/image-gallery-cone.jpg" alt=""/>
-    <img class="image-gallery__image" src="./images/desktop/image-gallery-sugarcubes.jpg" alt=""/>
-  </div>
-
+    <div class="image-gallery">
+      <img class="image-gallery__image" src="./images/desktop/image-gallery-milkbottles.jpg" alt=""/>
+      <img class="image-gallery__image" src="./images/desktop/image-gallery-orange.jpg" alt=""/>
+      <img class="image-gallery__image" src="./images/desktop/image-gallery-cone.jpg" alt=""/>
+      <img class="image-gallery__image" src="./images/desktop/image-gallery-sugarcubes.jpg" alt=""/>
+    </div>
+  </main>
   <footer>
     <div class="footer__container">
-      <img class="footer__logo" src="./images/logo.svg"/>
+      <img class="footer__logo" src="./images/logo.svg" alt=""/>
       <nav class="footer-nav">
         <ul class="footer-nav__list">
           <li class="footer-nav__item"><a class="footer-nav__link" href="#">About</a></li>
@@ -129,10 +121,10 @@
       
       <div class="social-media social-media__footer-nav">
         <div class="social-media__list">
-          <a href="#"><img class="social-media__item" src="./images/icon-facebook.svg" alt=""></a>
-          <a href="#"><img class="social-media__item" src="./images/icon-instagram.svg" alt=""></a>
-          <a href="#"><img class="social-media__item" src="./images/icon-twitter.svg" alt=""></a>
-          <a href="#"><img class="social-media__item" src="./images/icon-pinterest.svg" alt=""></a>
+          <a href="#"><img class="social-media__item" src="./images/icon-facebook.svg" alt="facebook"></a>
+          <a href="#"><img class="social-media__item" src="./images/icon-instagram.svg" alt="instagram"></a>
+          <a href="#"><img class="social-media__item" src="./images/icon-twitter.svg" alt="twitter"></a>
+          <a href="#"><img class="social-media__item" src="./images/icon-pinterest.svg" alt="pinterest"></a>
         </div>
       </div>
     </div>
