@@ -19,15 +19,16 @@
 
 /*
     Skills used:
-        Filter (New)
+        Filter (new)
         Position
         Z-index
         Flexbox
-        TODO: Grid (Gallery images - mobile)
-        BEM Methodology
+        Grid (Gallery images - mobile)
         Pseudo elements (after)
-
-
+    Techniques:
+        BEM Methodology
+        Mobile first
+        Responsive
 */
 
 :root {
@@ -64,13 +65,11 @@
 body {
     margin: 0 auto;
     min-height: 100vh;
-    width: 1440px;
 }
 
 
-@media (max-width: 375px) {
+@media (min-width: 1440px) {
     body {
-        width: unset;
+        width: 1440px;
     }
 }
-

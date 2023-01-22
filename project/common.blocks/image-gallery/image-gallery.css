@@ -1,14 +1,14 @@
 .image-gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
 }
 
 .image-gallery__image {
     width: 100%;
 }
 
-@media (max-width: 375px) {
+@media (min-width: 1440px) {
     .image-gallery {
-        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        grid-template: auto / repeat(4, 1fr);
     }
 }
