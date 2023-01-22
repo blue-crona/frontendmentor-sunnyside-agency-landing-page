@@ -50,6 +50,8 @@
     color: var(--very-dark-desaturated-blue);
     text-transform: uppercase;
     font-weight: 900;
+    display: inline-block;
+    width: fit-content;
 }
 
 .tiles__link-text {
@@ -109,6 +111,9 @@
 
 .tiles__service-description {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     top: 65%;
     padding: 0 1em;
 }
@@ -129,11 +134,17 @@
 
     .tiles__description {
         width: 50%;
-        padding: 0 7.6em;
+        /* max-width: 10em; */
+        /* padding: 0 12.5em; */
         text-align: left;
-        align-items: flex-start; 
+        align-items: center; 
+        display: flex;
     }
 
+    .tiles__container {
+        /* margin-inline: auto; */
+        max-width: 25rem;
+    }
     .tiles__service-description {
         padding: 0 9em;
     }

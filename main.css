@@ -18,7 +18,7 @@
 }
 
 /*
-    Skills used:
+    CSS Declarations Utalised:
         Filter (new)
         Position
         Z-index
@@ -26,6 +26,7 @@
         Grid (Gallery images - mobile)
         Pseudo elements (after)
         Background
+        Opacity
     Techniques:
         BEM Methodology
         Mobile first
@@ -58,10 +59,4 @@
 body {
     margin: 0 auto;
     min-height: 100vh;
-}
-
-@media (min-width: 1440px) {
-    body {
-        /* width: 1440px; */
-    }
 }
