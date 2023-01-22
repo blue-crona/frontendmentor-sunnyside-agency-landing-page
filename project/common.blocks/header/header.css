@@ -1,7 +1,12 @@
 .header {
-    position: relative;
-    height: 100%;
     display: flex;
+    position: relative;
+    min-height: 100vh;
+
+    background-image: url("../../../images/mobile/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 .header__image {
@@ -60,4 +65,8 @@
     .header__title {
         font-size: 3rem;
     }
+
+    .header {
+        background-image: url("../../../images/desktop/image-header.jpg");
+    } 
 }
