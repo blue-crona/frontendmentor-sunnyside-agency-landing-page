@@ -1,78 +1,77 @@
 .testimonial {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3em 1.25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em 1.25em;
 }
 
 .testimonial__title {
-    font-family: 'Fraunces', serif;
-    text-transform: uppercase;
-    font-size: 1rem;
-    letter-spacing: .2rem;
-    color: var(--grayish-blue);
-    margin-bottom: 3em;
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  color: var(--grayish-blue);
+  margin-bottom: 3em;
 }
 
 .testimonial__author {
-    font-family: 'Fraunces', serif;
-    font-weight: 900;
-    font-size: 1rem;
-    color: var(--very-dark-desaturated-blue);
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 1rem;
+  color: var(--very-dark-desaturated-blue);
 }
 
 .testimonial__position {
-    font-size: .75rem;
-    color: var(--grayish-blue);
-    margin-top: .5em;
+  font-size: 0.75rem;
+  color: var(--grayish-blue);
+  margin-top: 0.5em;
 }
 
 .testimonial__quote {
-    color: var(--very-dark-grayish-blue);
-    text-align: center;
-    margin: 2em 0;
+  color: var(--very-dark-grayish-blue);
+  text-align: center;
+  margin: 2em 0;
 }
 
-.testimonial__list{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: space-evenly;
+.testimonial__list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .testimonial__item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 3em;
 }
 
 .testimonial__item:last-child {
-    margin-bottom: unset;
+  margin-bottom: unset;
 }
 
 .testimonial__image {
-    border-radius: 10000000000000px;
-    width: 20%;
+  border-radius: 10000000000000px;
+  width: 20%;
 }
 
-
 @media (min-width: 1440px) {
-    .testimonial__list {
-        flex-direction: unset;
-    }
+  .testimonial__list {
+    flex-direction: unset;
+  }
 
-    .testimonial__item {
-        width: 350px;
-        margin-bottom: unset;
-    }
+  .testimonial__item {
+    width: 350px;
+    margin-bottom: unset;
+  }
 
-    .testimonial {
-        padding: 7em;
-    } 
+  .testimonial {
+    padding: 7em;
+  }
 
-    .testimonial__quote {
-        margin: 4em 0;
-    }
+  .testimonial__quote {
+    margin: 4em 0;
+  }
 }

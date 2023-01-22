@@ -1,151 +1,149 @@
 .tiles {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .tiles__row {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
 }
 
 .tiles__description {
-    padding: 4em 1em;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
+  padding: 4em 1em;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .tiles__image,
 .tiles__service {
-    width: 100%; 
+  width: 100%;
 }
 
 .tiles__service {
-
-    position: relative;
+  position: relative;
 }
 
 .tiles__header {
-    font-family: 'Fraunces', serif;
-    font-size: 2rem;
-    font-weight: 900;
-    color: var(--very-dark-desaturated-blue);
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--very-dark-desaturated-blue);
 }
 
 .tiles__text {
-    font-size: 1rem;
-    color: var(--dark-grayish-blue);
-    margin-top: 1.5em;
+  font-size: 1rem;
+  color: var(--dark-grayish-blue);
+  margin-top: 1.5em;
 }
 
-.tiles__link{
-    margin-top: 2em;
-    text-decoration: none;
-    font-family: 'Fraunces', serif;
-    color: var(--very-dark-desaturated-blue);
-    text-transform: uppercase;
-    font-weight: 900;
-    display: inline-block;
-    width: fit-content;
+.tiles__link {
+  margin-top: 2em;
+  text-decoration: none;
+  font-family: "Fraunces", serif;
+  color: var(--very-dark-desaturated-blue);
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  width: fit-content;
 }
 
 .tiles__link-text {
-    padding: 0 .5em;
+  padding: 0 0.5em;
 }
 
 .tiles__link--yellow::after,
 .tiles__link--soft-red::after {
-    content: "";
-    float: left;
-    width: 100%;
-    height: 10px;
-    margin-top: -10px;
-    border-radius: 1000000000px;
-    opacity: .3;
+  content: "";
+  float: left;
+  width: 100%;
+  height: 10px;
+  margin-top: -10px;
+  border-radius: 1000000000px;
+  opacity: 0.3;
 }
 
 .tiles__link--soft-red:hover::after,
 .tiles__link--yellow:hover::after {
-    opacity: 1;
+  opacity: 1;
 }
 
 .tiles__link--soft-red::after {
-    background-color: var(--soft-red);
+  background-color: var(--soft-red);
 }
 
 .tiles__link--yellow::after {
-    background-color: var(--yellow);
-
+  background-color: var(--yellow);
 }
 
 .tiles__service-header {
-    font-family: 'Fraunces', serif;
-    font-size: 2rem;
-    font-weight: 900;
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .tiles__service-text {
-    margin-top: 1.5em;
+  margin-top: 1.5em;
 }
 
 .tiles__service-header--cyan,
 .tiles__service-text--cyan {
-    color: var(--dark-desaturated-cyan);
+  color: var(--dark-desaturated-cyan);
 }
 
 .tiles__service-header--blue,
 .tiles__service-text--blue {
-    color: var(--dark-blue);
+  color: var(--dark-blue);
 }
 
 .tiles__service-image {
-    display: block;
-    width: 100%;
-    height: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .tiles__service-description {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    top: 65%;
-    padding: 0 1em;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 65%;
+  padding: 0 1em;
 }
 
 @media (min-width: 1440px) {
-    .tiles__row {
-        flex-direction: unset;
-    }
+  .tiles__row {
+    flex-direction: unset;
+  }
 
-    .tiles__row--reverse {
-        flex-direction: row-reverse;
-    }
+  .tiles__row--reverse {
+    flex-direction: row-reverse;
+  }
 
-    .tiles__image,
-    .tiles__service {
-        width: 50%; 
-    }
+  .tiles__image,
+  .tiles__service {
+    width: 50%;
+  }
 
-    .tiles__description {
-        width: 50%;
-        /* max-width: 10em; */
-        /* padding: 0 12.5em; */
-        text-align: left;
-        align-items: center; 
-        display: flex;
-    }
+  .tiles__description {
+    width: 50%;
+    /* max-width: 10em; */
+    /* padding: 0 12.5em; */
+    text-align: left;
+    align-items: center;
+    display: flex;
+  }
 
-    .tiles__container {
-        /* margin-inline: auto; */
-        max-width: 25rem;
-    }
-    .tiles__service-description {
-        padding: 0 9em;
-    }
+  .tiles__container {
+    /* margin-inline: auto; */
+    max-width: 25rem;
+  }
+  .tiles__service-description {
+    padding: 0 9em;
+  }
 }

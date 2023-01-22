@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
   <link rel="stylesheet" href="./main.css">
   <script defer src="./project/common.blocks/main-nav/main-nav.js"></script>
+  <script defer src="./project/common.blocks/header/header.js"></script>
 </head>
+
 <body>
   <header class="header">
     <div class="main-nav__wrapper">
       <a href="#">
-        <img class="main-nav__logo" src="./images/logo.svg" alt="homepage"/>
+        <img class="main-nav __logo" src="./images/logo.svg" alt="homepage" />
       </a>
       <button class="main-nav__mobile-nav-toggle" id="main-nav__mobile-nav-toggle">
         <!-- <span class="visually-hidden">button</span> -->
@@ -25,21 +29,21 @@
           <li class="main-nav__item"><a class="main-nav__link" href="#0">Contact</a></li>
         </ul>
       </nav>
-    </div> 
+    </div>
     <div class="header__content">
       <h1 class="header__title">We are creatives</h1>
-      <img class="header__down-arrow bounce" src="./images/icon-arrow-down.svg" alt="">
+      <img class="header__arrow-down bounce" src="./images/icon-arrow-down.svg" alt="">
     </div>
   </header>
   <main>
     <div class="tiles">
       <div class="tiles__row tiles__row--reverse">
-        <img class="tiles__image" src="./images/desktop/image-transform.jpg" alt=""/>
+        <img class="tiles__image" src="./images/desktop/image-transform.jpg" alt="" />
         <div class="tiles__description">
           <div class="tiles__container">
             <h2 class="tiles__header">Transform your brand</h2>
             <p class="tiles__text">
-              We are a full-service creative agency specializing in helping brands grow fast. 
+              We are a full-service creative agency specializing in helping brands grow fast.
               Engage your clients through compelling visuals that do most of the marketing for you.
             </p>
             <a class="tiles__link tiles__link--yellow" href="#0">
@@ -50,46 +54,49 @@
       </div>
 
       <div class="tiles__row">
-        <img class="tiles__image tiles__wrapper" src="./images/desktop/image-stand-out.jpg" alt=""/>
+        <img class="tiles__image tiles__wrapper" src="./images/desktop/image-stand-out.jpg" alt="" />
         <div class="tiles__description">
           <div class="tiles__container">
-          <h2 class="tiles__header">Stand out to the right audience</h2>
-          <p class="tiles__text">
-            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-          </p> 
-          <a class="tiles__link tiles__link--soft-red" href="#0">
-            <p class="tiles__link-text">Learn more</p>
-          </a>
+            <h2 class="tiles__header">Stand out to the right audience</h2>
+            <p class="tiles__text">
+              Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+              we’ll build and extend your brand in digital places.
+            </p>
+            <a class="tiles__link tiles__link--soft-red" href="#0">
+              <p class="tiles__link-text">Learn more</p>
+            </a>
+          </div>
         </div>
-        </div> 
       </div>
 
       <div class="tiles__row">
-        <div  class="tiles__service">    
-            <picture>
-              <source media="(min-width:1440px)" srcset="./images/desktop/image-graphic-design.jpg">
-              <img class="tiles__service-image" src="./images/mobile/image-graphic-design.jpg" alt=""/>
-            </picture>
-            <div class="tiles__service-description">
-              <div class="tiles__container">
+        <div class="tiles__service">
+          <picture>
+            <source media="(min-width:1440px)" srcset="./images/desktop/image-graphic-design.jpg">
+            <img class="tiles__service-image" src="./images/mobile/image-graphic-design.jpg" alt="" />
+          </picture>
+          <div class="tiles__service-description">
+            <div class="tiles__container">
               <h2 class="tiles__service-header tiles__service-header--cyan">Graphic design</h2>
               <p class="tiles__service-text tiles__service-text--cyan">
-                Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.    
+                Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+                potential clients’ attention.
               </p>
             </div>
           </div>
-        </div> 
-        <div  class="tiles__service">
+        </div>
+        <div class="tiles__service">
           <picture>
             <source media="(min-width:1440px)" srcset="./images/desktop/image-photography.jpg">
-            <img class="tiles__service-image" src="./images/mobile/image-photography.jpg" alt=""/>
+            <img class="tiles__service-image" src="./images/mobile/image-photography.jpg" alt="" />
           </picture>
-          
+
           <div class="tiles__service-description">
             <div class="tiles__container">
               <h2 class="tiles__service-header tiles__service-header--blue">Photography</h2>
               <p class="tiles__service-text tiles__service-text--blue">
-                Increase your credibility by getting the most stunning, high-quality photos that improve your business image.    
+                Increase your credibility by getting the most stunning, high-quality photos that improve your business
+                image.
               </p>
             </div>
           </div>
@@ -100,25 +107,27 @@
       <h2 class="testimonial__title">Client testimonials</h2>
       <div class="testimonial__list">
         <div class="testimonial__item">
-          <img class="testimonial__image" src="./images/image-emily.jpg" alt=""/>
+          <img class="testimonial__image" src="./images/image-emily.jpg" alt="" />
           <p class="testimonial__quote">
-            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
+            hit.
           </p>
           <h3 class="testimonial__author">Emily R.</h3>
           <p class="testimonial__position">Marketing Director</p>
         </div>
 
         <div class="testimonial__item">
-          <img class="testimonial__image" src="./images/image-thomas.jpg" alt=""/>
+          <img class="testimonial__image" src="./images/image-thomas.jpg" alt="" />
           <p class="testimonial__quote">
-            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+            enjoyable experience.
           </p>
           <h3 class="testimonial__author">Thomas S.</h3>
           <p class="testimonial__position">Chief Operating Officer</p>
         </div>
-      
+
         <div class="testimonial__item">
-          <img class="testimonial__image" src="./images/image-jennie.jpg" alt=""/>
+          <img class="testimonial__image" src="./images/image-jennie.jpg" alt="" />
           <p class="testimonial__quote">
             Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
           </p>
@@ -128,23 +137,23 @@
       </div>
     </div>
     <div class="image-gallery">
-      <img class="image-gallery__image" src="./images/desktop/image-gallery-milkbottles.jpg" alt=""/>
-      <img class="image-gallery__image" src="./images/desktop/image-gallery-orange.jpg" alt=""/>
-      <img class="image-gallery__image" src="./images/desktop/image-gallery-cone.jpg" alt=""/>
-      <img class="image-gallery__image" src="./images/desktop/image-gallery-sugarcubes.jpg" alt=""/>
+      <img class="image-gallery__image" src="./images/desktop/image-gallery-milkbottles.jpg" alt="" />
+      <img class="image-gallery__image" src="./images/desktop/image-gallery-orange.jpg" alt="" />
+      <img class="image-gallery__image" src="./images/desktop/image-gallery-cone.jpg" alt="" />
+      <img class="image-gallery__image" src="./images/desktop/image-gallery-sugarcubes.jpg" alt="" />
     </div>
   </main>
   <footer>
     <div class="footer__container">
-      <img class="footer__logo" src="./images/logo.svg" alt=""/>
+      <img class="footer__logo" src="./images/logo.svg" alt="" />
       <nav class="footer-nav">
         <ul class="footer-nav__list">
           <li class="footer-nav__item"><a class="footer-nav__link" href="#0">About</a></li>
           <li class="footer-nav__item"><a class="footer-nav__link" href="#0">Services</a></li>
           <li class="footer-nav__item"><a class="footer-nav__link" href="#0">Projects</a></li>
         </ul>
-      </nav>  
-      
+      </nav>
+
       <div class="social-media social-media__footer-nav">
         <div class="social-media__list">
           <a href="#0"><img class="social-media__item" src="./images/icon-facebook.svg" alt="facebook"></a>
@@ -157,8 +166,9 @@
   </footer>
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://www.frontendmentor.io/profile/blue-crona">Ben Matthews</a>.
   </div>
 </body>
+
 </html>
