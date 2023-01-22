@@ -27,6 +27,11 @@
     width: 50%;
 }
 
+.tiles__service {
+
+    position: relative;
+}
+
 .tiles__header {
     font-family: 'Fraunces', serif;
     font-size: 2rem;
@@ -105,6 +110,36 @@
 .tiles__service-description {
     position: absolute;
     top: 65%;
-    width: 50%;
     padding: 0 9em;
 }
+
+
+@media (max-width: 375px) {
+    .tiles__row {
+        flex-direction: column;
+    }
+
+    .tiles__image,
+    .tiles__service {
+        width: 100%; 
+    }
+
+    .tiles__description {
+        padding: 4em 1em;
+        width: 100%;
+        text-align: center;
+        align-items: center;  
+    }
+
+    .tiles__service-description {
+        padding: 0 1em;
+    }
+     .tiles__service-image {
+        display: block;
+     }
+
+     .tiles__link {
+        width: 45%;
+     }
+} 
+

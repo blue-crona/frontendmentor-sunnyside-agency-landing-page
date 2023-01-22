@@ -10,8 +10,7 @@
 .social-media__list {
     display: flex;
     justify-content: center;
-    gap: .5em;
-    max-width: 8vw;
+    gap: 1em;
 }
 
 .social-media__item:hover {

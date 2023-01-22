@@ -8,18 +8,21 @@
 .testimonial__title {
     font-family: 'Fraunces', serif;
     text-transform: uppercase;
-    letter-spacing: .1em;
+    font-size: 1rem;
+    letter-spacing: .2rem;
     color: var(--grayish-blue);
     margin-bottom: 3em;
 }
 
 .testimonial__author {
     font-family: 'Fraunces', serif;
-    color: var(--very-dark-desaturated-blue);
     font-weight: 900;
+    font-size: 1rem;
+    color: var(--very-dark-desaturated-blue);
 }
 
 .testimonial__position {
+    font-size: .75rem;
     color: var(--grayish-blue);
     margin-top: .5em;
 }
@@ -47,4 +50,31 @@
 .testimonial__image {
     border-radius: 10000000000000px;
     width: 20%;
+}
+
+
+@media (max-width: 375px) {
+    .testimonial__list {
+        flex-direction: column;
+    }
+
+    .testimonial__item {
+        width: 100%;
+    }
+
+    .testimonial {
+        padding: 3em 1.25em;
+    } 
+
+    .testimonial__quote {
+        margin: 2em 0;
+    }
+
+    .testimonial__item {
+        margin-bottom: 3em;
+    }
+
+    .testimonial__item:last-child {
+        margin-bottom: unset;
+    }
 }

@@ -17,6 +17,19 @@
     box-sizing: border-box;
 }
 
+/*
+    Skills used:
+        Filter (New)
+        Position
+        Z-index
+        Flexbox
+        TODO: Grid (Gallery images - mobile)
+        BEM Methodology
+        Pseudo elements (after)
+
+
+*/
+
 :root {
     /* Colors */
         /* Variables */
@@ -50,14 +63,14 @@
 
 body {
     margin: 0 auto;
+    min-height: 100vh;
     width: 1440px;
 }
 
 
-/* @media (min-width: 1440px) {
+@media (max-width: 375px) {
     body {
-        max-width: 1140px;
-        padding-block: 6em 1em;
+        width: unset;
     }
-} */
+}
 

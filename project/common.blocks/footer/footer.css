@@ -5,7 +5,12 @@
 }
 
 .footer__logo {
-    /* TODO: Read documentation on filter */
-    /* width: 10%; */
-    filter: invert(27%) sepia(7%) saturate(2968%) hue-rotate(116deg) brightness(50%) contrast(90%);
+    /* width: 70%; */
+    filter: invert(30%) sepia(10%) saturate(9999%) hue-rotate(115deg) brightness(50%) contrast(90%);
+}
+
+@media (max-width: 375px) {
+    .footer__logo {
+        width: 70%;
+    }
 }

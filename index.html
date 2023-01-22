@@ -5,23 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./main.css">
 </head>
 <body>
   <header class="header">
-    <img class="header__image" src="./images/desktop/image-header.jpg" alt=""/>
+    <picture>
+      <source media="(max-width:375px)" srcset="./images/mobile/image-header.jpg">
+      <img class="header__image" src="./images/desktop/image-header.jpg" alt=""/>
+    </picture>
     <nav class="main-nav">
-      <a href="#"><img src="./images/logo.svg" alt="homepage"/></a>
+      <a href="#0"><img src="./images/logo.svg" alt="homepage"/></a>
       <ul class="main-nav__list">
-        <li class="main-nav__item"><a class="main-nav__link" href="#">About</a></li>
-        <li class="main-nav__item"><a class="main-nav__link" href="#">Services</a></li>
-        <li class="main-nav__item"><a class="main-nav__link" href="#">Projects</a></li>
-        <li class="main-nav__item"><a class="main-nav__link" href="#">Contact</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#0">About</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#0">Services</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#0">Projects</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#0">Contact</a></li>
       </ul>
     </nav> 
     <div class="header__content">
       <h1 class="header__title">We are creatives</h1>
-      <img class="header__down-arrow" src="./images/icon-arrow-down.svg" alt="">
+      <img class="header__down-arrow bounce" src="./images/icon-arrow-down.svg" alt="">
     </div>
   </header>
   <main>
@@ -34,7 +37,7 @@
             We are a full-service creative agency specializing in helping brands grow fast. 
             Engage your clients through compelling visuals that do most of the marketing for you.
           </p>
-          <a class="tiles__link tiles__link--yellow" href="#">Learn more</a>
+          <a class="tiles__link tiles__link--yellow" href="#0">Learn more</a>
         </div>
       </div>
 
@@ -45,13 +48,16 @@
           <p class="tiles__text">
             Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
           </p>   
-          <a class="tiles__link tiles__link--soft-red" href="#">Learn more</a>  
+          <a class="tiles__link tiles__link--soft-red" href="#0">Learn more</a>  
         </div> 
       </div>
 
       <div class="tiles__row">
-        <div  class="tiles__service">
-            <img class="tiles__service-image" src="./images/desktop/image-graphic-design.jpg" alt=""/>
+        <div  class="tiles__service">    
+            <picture>
+              <source media="(max-width:375px)" srcset="./images/mobile/image-graphic-design.jpg">
+              <img class="tiles__service-image" src="./images/desktop/image-graphic-design.jpg" alt=""/>
+            </picture>
             <div class="tiles__service-description">
               <h2 class="tiles__service-header tiles__service-header--cyan">Graphic design</h2>
               <p class="tiles__service-text tiles__service-text--cyan">
@@ -60,7 +66,11 @@
             </div>
         </div> 
         <div  class="tiles__service">
-          <img class="tiles__service-image" src="./images/desktop/image-photography.jpg" alt=""/>
+          <picture>
+            <source media="(max-width:375px)" srcset="./images/mobile/image-photography.jpg">
+            <img class="tiles__service-image" src="./images/desktop/image-photography.jpg" alt=""/>
+          </picture>
+          
           <div class="tiles__service-description">
             <h2 class="tiles__service-header tiles__service-header--blue">Photography</h2>
             <p class="tiles__service-text tiles__service-text--blue">
@@ -113,18 +123,18 @@
       <img class="footer__logo" src="./images/logo.svg" alt=""/>
       <nav class="footer-nav">
         <ul class="footer-nav__list">
-          <li class="footer-nav__item"><a class="footer-nav__link" href="#">About</a></li>
-          <li class="footer-nav__item"><a class="footer-nav__link" href="#">Services</a></li>
-          <li class="footer-nav__item"><a class="footer-nav__link" href="#">Projects</a></li>
+          <li class="footer-nav__item"><a class="footer-nav__link" href="#0">About</a></li>
+          <li class="footer-nav__item"><a class="footer-nav__link" href="#0">Services</a></li>
+          <li class="footer-nav__item"><a class="footer-nav__link" href="#0">Projects</a></li>
         </ul>
       </nav>  
       
       <div class="social-media social-media__footer-nav">
         <div class="social-media__list">
-          <a href="#"><img class="social-media__item" src="./images/icon-facebook.svg" alt="facebook"></a>
-          <a href="#"><img class="social-media__item" src="./images/icon-instagram.svg" alt="instagram"></a>
-          <a href="#"><img class="social-media__item" src="./images/icon-twitter.svg" alt="twitter"></a>
-          <a href="#"><img class="social-media__item" src="./images/icon-pinterest.svg" alt="pinterest"></a>
+          <a href="#0"><img class="social-media__item" src="./images/icon-facebook.svg" alt="facebook"></a>
+          <a href="#0"><img class="social-media__item" src="./images/icon-instagram.svg" alt="instagram"></a>
+          <a href="#0"><img class="social-media__item" src="./images/icon-twitter.svg" alt="twitter"></a>
+          <a href="#0"><img class="social-media__item" src="./images/icon-pinterest.svg" alt="pinterest"></a>
         </div>
       </div>
     </div>
