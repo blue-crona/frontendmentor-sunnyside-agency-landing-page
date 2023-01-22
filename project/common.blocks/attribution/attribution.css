@@ -1,2 +1,12 @@
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100000000;
+}
+
 .attribution a { color: hsl(228, 45%, 44%); }

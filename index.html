@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
   <link rel="stylesheet" href="./main.css">
+  <script defer src="./project/common.blocks/main-nav/main-nav.js"></script>
 </head>
 <body>
   <header class="header">
@@ -13,15 +14,22 @@
       <source media="(min-width:1440px)" srcset="./images/desktop/image-header.jpg">
       <img class="header__image" src="./images/mobile/image-header.jpg" alt=""/>
     </picture>
-    <nav class="main-nav">
-      <a href="#0"><img src="./images/logo.svg" alt="homepage"/></a>
-      <ul class="main-nav__list">
-        <li class="main-nav__item"><a class="main-nav__link" href="#0">About</a></li>
-        <li class="main-nav__item"><a class="main-nav__link" href="#0">Services</a></li>
-        <li class="main-nav__item"><a class="main-nav__link" href="#0">Projects</a></li>
-        <li class="main-nav__item"><a class="main-nav__link" href="#0">Contact</a></li>
-      </ul>
-    </nav> 
+    <div class="main-nav__wrapper">
+      <a href="#">
+        <img class="main-nav__logo" src="./images/logo.svg" alt="homepage"/>
+      </a>
+      <button class="main-nav__mobile-nav-toggle" id="main-nav__mobile-nav-toggle">
+        <!-- <span class="visually-hidden">button</span> -->
+      </button>
+      <nav class="main-nav" id="main_nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a class="main-nav__link" href="#0">About</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="#0">Services</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="#0">Projects</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="#0">Contact</a></li>
+        </ul>
+      </nav>
+    </div> 
     <div class="header__content">
       <h1 class="header__title">We are creatives</h1>
       <img class="header__down-arrow bounce" src="./images/icon-arrow-down.svg" alt="">
@@ -140,9 +148,9 @@
     </div>
   </footer>
 
-  <!-- <div class="attribution">
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    Coded by <a href="https://www.frontendmentor.io/profile/blue-crona">Ben Matthews</a>.
+  </div>
 </body>
 </html>

@@ -9,7 +9,7 @@
 @import "./project/common.blocks/image-gallery/image-gallery.css";
 @import "./project/common.blocks/tiles/tiles.css";
 @import "./project/common.blocks/header/header.css";
-/* @import "./project/common.blocks/attribution/attribution.css"; */
+@import "./project/common.blocks/attribution/attribution.css";
 
 *, *::after, *::before {
     margin: 0;
@@ -66,7 +66,6 @@ body {
     margin: 0 auto;
     min-height: 100vh;
 }
-
 
 @media (min-width: 1440px) {
     body {

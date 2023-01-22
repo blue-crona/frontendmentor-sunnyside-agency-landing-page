@@ -1,15 +1,41 @@
-.main-nav {
+.main-nav__wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     padding: 2em;
-
     position: absolute;
     z-index: 100;
 }
 
+.main-nav[data-visible] {
+    display: block;
+    position: absolute;
+    inset: 5.5em 2em auto;
+}
+
+.main-nav {
+    display: none;
+}
+
+.main-nav::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    border-right: 20px solid var(--white);
+    border-top: 20px solid transparent;
+    border-left: none;
+    border-bottom: none;
+}
+
 .main-nav__list {
     display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    gap: 1.5rem;
+    align-items: center;
+    padding: 3em
 }
 
 .main-nav__item {
@@ -18,11 +44,8 @@
 
 .main-nav__link {
     text-decoration: none;
-    color: white;
-    padding: .5em 1em;
-
-    /* font-size: unset;
-    line-height: unset; */
+    color: var(--dark-grayish-blue);
+    padding: .7em 1.2em;
 }
 
 .main-nav__link:hover {
@@ -30,16 +53,58 @@
 }
 
 .main-nav__link:focus {
-    background-color: var(--white);
+    background-color: var(--yellow);
+    font-family: 'Fraunces', serif;
     color: var(--dark-blue);
     outline: none;
     border-radius: 99999999999999999999px;
-    /* padding: .5em 1em; */
+    text-transform: uppercase;
 }
 
-/* .menu__link:link, 
-.menu__link:visited,
-.menu__link:hover,
-.menu__link:active {
-    text-decoration: none;
-} */
+.main-nav__mobile-nav-toggle {
+    padding: .75em;
+    background: transparent;
+    border: 0;
+
+    background-image: url(../../../images/icon-hamburger.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.main-nav__logo {
+    vertical-align: bottom;
+}
+
+@media (min-width: 1440px) {
+    .main-nav {
+        display: block;
+    }
+
+    .main-nav__list {
+        flex-direction: unset;
+        background-color: unset;
+        padding: 0;
+    }
+
+    .main-nav__link {
+        color: var(--white);
+    }  
+
+    .main-nav::before {
+        display: none;
+    }
+
+    .main-nav__mobile-nav-toggle {
+        display: none;
+    }
+
+    .main-nav__link:focus {
+        background-color: var(--white);
+        color: var(--dark-blue);
+        outline: none;
+        border-radius: 99999999999999999999px;
+        text-transform: none;
+        font-family: inherit;
+    }    
+}
