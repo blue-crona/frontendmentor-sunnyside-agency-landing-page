@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/blue-crona/frontendmentor-sunnyside-agency-landing-page)
+- Live Site URL: [GitHub Pages](https://blue-crona.github.io/frontendmentor-sunnyside-agency-landing-page/#0)
 
 ## My process
 
@@ -66,5 +66,4 @@ Coming soon...
 
 ## Author
 
-- Website - [Ben Matthews](https://blue-crona.github.io/frontendmentor-sunnyside-agency-landing-page/)
 - Frontend Mentor - [@blue-crona](https://www.frontendmentor.io/profile/blue-crona)
