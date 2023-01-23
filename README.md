@@ -66,5 +66,5 @@ Coming soon...
 
 ## Author
 
-- Website - [Ben Matthews](https://www.your-site.com)
+- Website - [Ben Matthews](https://blue-crona.github.io/frontendmentor-sunnyside-agency-landing-page/)
 - Frontend Mentor - [@blue-crona](https://www.frontendmentor.io/profile/blue-crona)
