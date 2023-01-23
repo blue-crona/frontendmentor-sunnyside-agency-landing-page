@@ -19,23 +19,6 @@
   box-sizing: border-box;
 }
 
-/*
-    CSS Declarations Utalised:
-        Filter (new)
-        Position
-        Z-index
-        Flexbox
-        Grid (Gallery images - mobile)
-        Pseudo elements (after)
-        Background
-        Opacity
-        Animation (Learning resource: https://www.w3schools.com/css/css3_animations.asp)
-    Techniques:
-        BEM Methodology
-        Mobile first
-        Responsive
-*/
-
 :root {
   /* Colors */
   /* Primary */
