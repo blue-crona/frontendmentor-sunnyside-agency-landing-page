@@ -37,8 +37,20 @@ Users should be able to:
 
 ### Built with
 
-CSS Declarations Utalised: - Filter - Position - Z-index - Flexbox - Grid - Pseudo elements - Background - Opacity - Animation
-Techniques: - BEM Methodology - Mobile-first workflow
+- BEM Methodology
+- Mobile-first workflow
+
+CSS Declarations Utalised:
+
+- Filter
+- Position
+- Z-index
+- Flexbox
+- Grid
+- Pseudo elements
+- Background
+- Opacity
+- Animation
 
 ### What I learned
 
