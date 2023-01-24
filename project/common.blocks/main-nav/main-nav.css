@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 2em;
+  padding: 2.5em 2em;
   position: absolute;
   z-index: 100;
 }
@@ -89,6 +89,10 @@
 
   .main-nav__link {
     color: var(--white);
+  }
+
+  .main-nav__logo {
+    width: 10em;
   }
 
   .main-nav::before {

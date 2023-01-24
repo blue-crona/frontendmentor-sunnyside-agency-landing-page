@@ -12,6 +12,6 @@
 
 @media (min-width: 1440px) {
   .footer__logo {
-    width: unset;
+    width: 10em;
   }
 }
