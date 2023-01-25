@@ -11,7 +11,7 @@
   font-size: 1rem;
   letter-spacing: 0.2rem;
   color: var(--grayish-blue);
-  margin-bottom: 3em;
+  /* margin-bottom: 3em; */
 }
 
 .testimonial__author {
@@ -19,6 +19,7 @@
   font-weight: 900;
   font-size: 1rem;
   color: var(--very-dark-desaturated-blue);
+  margin-top: 2em;
 }
 
 .testimonial__position {
@@ -30,7 +31,6 @@
 .testimonial__quote {
   color: var(--very-dark-grayish-blue);
   text-align: center;
-  margin: 2em 0;
 }
 
 .testimonial__list {
@@ -45,7 +45,6 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-bottom: 3em;
 }
 
 .testimonial__item:last-child {
@@ -55,6 +54,7 @@
 .testimonial__image {
   border-radius: 10000000000000px;
   width: 20%;
+  margin: 4em 0 3em 0;
 }
 
 @media (min-width: 1440px) {
@@ -69,9 +69,5 @@
 
   .testimonial {
     padding: 7em;
-  }
-
-  .testimonial__quote {
-    margin: 4em 0;
   }
 }

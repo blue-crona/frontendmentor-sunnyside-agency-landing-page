@@ -40,10 +40,11 @@
   font-size: 1rem;
   color: var(--dark-grayish-blue);
   margin-top: 1.5em;
+  line-height: 1.5em;
 }
 
 .tiles__link {
-  margin-top: 2em;
+  margin-top: 3em;
   text-decoration: none;
   font-family: "Fraunces", serif;
   color: var(--very-dark-desaturated-blue);
@@ -63,7 +64,7 @@
   float: left;
   width: 100%;
   height: 10px;
-  margin-top: -10px;
+  margin-top: -7px;
   border-radius: 1000000000px;
   opacity: 0.3;
 }
@@ -89,6 +90,8 @@
 
 .tiles__service-text {
   margin-top: 1.5em;
+  line-height: 1.5em;
+  font-size: 0.9rem;
 }
 
 .tiles__service-header--cyan,
@@ -143,7 +146,16 @@
     /* margin-inline: auto; */
     max-width: 25rem;
   }
+
+  .tiles__services-container {
+    max-width: 19rem;
+  }
+
   .tiles__service-description {
     padding: 0 9em;
+  }
+
+  .tiles__header {
+    font-size: 2.3rem;
   }
 }
