@@ -63,7 +63,7 @@
 
 @media (min-width: 1440px) {
   .header__content {
-    top: -13%;
+    top: -11%;
   }
 
   .header__arrow-down {
@@ -71,7 +71,7 @@
   }
 
   .header__title {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .header {
