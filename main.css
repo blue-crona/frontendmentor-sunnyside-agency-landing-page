@@ -46,7 +46,3 @@ body {
   margin: 0 auto;
   min-height: 100vh;
 }
-
-.visually-hidden {
-  display: none;
-}
