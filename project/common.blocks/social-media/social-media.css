@@ -10,7 +10,7 @@
 .social-media__list {
   display: flex;
   justify-content: center;
-  gap: 1em;
+  gap: 1.5em;
 }
 
 .social-media__item:hover {
