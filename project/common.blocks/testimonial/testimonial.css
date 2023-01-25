@@ -11,7 +11,6 @@
   font-size: 1rem;
   letter-spacing: 0.2rem;
   color: var(--grayish-blue);
-  /* margin-bottom: 3em; */
 }
 
 .testimonial__author {
@@ -31,7 +30,7 @@
 .testimonial__quote {
   color: var(--very-dark-grayish-blue);
   text-align: center;
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
 .testimonial__list {

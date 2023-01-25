@@ -38,7 +38,7 @@
 
 .tiles__text {
   font-size: 1rem;
-  color: var(--grayish-blue);
+  color: var(--dark-grayish-blue);
   margin-top: 1.5em;
   line-height: 1.5em;
   padding: 0.5em;
@@ -85,7 +85,7 @@
 
 .tiles__service-header,
 .tiles__service-text {
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 .tiles__service-header {
@@ -160,10 +160,6 @@
 
   .tiles__header {
     font-size: 2.3rem;
-  }
-
-  .tiles__service-header {
-    font-size: 2rem;
   }
 
   .tiles__text {
