@@ -7,7 +7,7 @@
 .footer__logo {
   width: 70%;
   filter: invert(30%) sepia(10%) saturate(9999%) hue-rotate(115deg)
-    brightness(50%) contrast(90%);
+    brightness(50%) contrast(90%) opacity(0.8);
 }
 
 @media (min-width: 1440px) {
