@@ -23,7 +23,7 @@
   width: 100%;
   position: absolute;
   z-index: 99;
-  top: 3%;
+  top: 0%;
 }
 
 .header__title {
@@ -37,7 +37,7 @@
 }
 
 .header__arrow-down {
-  padding-top: 3em;
+  padding-top: 5em;
 }
 
 /* http://jsfiddle.net/u7vXT/ */
@@ -63,11 +63,11 @@
 
 @media (min-width: 1440px) {
   .header__content {
-    top: -10%;
+    top: -13%;
   }
 
   .header__arrow-down {
-    padding-top: 10em;
+    padding-top: 5em;
   }
 
   .header__title {
