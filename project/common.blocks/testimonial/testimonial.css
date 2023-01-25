@@ -31,7 +31,7 @@
 .testimonial__quote {
   color: var(--very-dark-grayish-blue);
   text-align: center;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 .testimonial__list {
@@ -66,6 +66,10 @@
   .testimonial__item {
     width: 350px;
     margin-bottom: unset;
+  }
+
+  .testimonial__title {
+    font-size: 1.25rem;
   }
 
   .testimonial {
